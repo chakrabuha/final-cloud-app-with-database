@@ -51,13 +51,8 @@
         <div class="card-columns-vertical mt-1">
         <h5 class="">Exam results</h5>
             <!--HINT Display exam results-->
-            {% for lesson in course.lesson_set.all %}
-            <div class="card mt-1">
-                <div class="card-header"><h5>Lesson {{lesson.order|add:1}}: {{lesson.title}}</h5></div>
-                <div class="card-body">{{lesson.content}}</div>
-            </div>
-        {% endfor %}
-</div>
+    </div>
+    </div>
     
 </body>
 </html>
